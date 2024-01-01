@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>汤家凤 - 线性代数 | XDU 953 Docs</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/XDU-953/leaf.ico">
+    <meta name="description" content="片刻寧靜">
+    
+    <link rel="preload" href="/XDU-953/assets/css/0.styles.b2081f6b.css" as="style"><link rel="preload" href="/XDU-953/assets/js/app.0055d2e6.js" as="script"><link rel="preload" href="/XDU-953/assets/js/2.43b082ac.js" as="script"><link rel="preload" href="/XDU-953/assets/js/1.3beff369.js" as="script"><link rel="preload" href="/XDU-953/assets/js/36.75b7720f.js" as="script"><link rel="prefetch" href="/XDU-953/assets/js/10.caafbcc0.js"><link rel="prefetch" href="/XDU-953/assets/js/11.0ad4fd66.js"><link rel="prefetch" href="/XDU-953/assets/js/12.c1fa94a2.js"><link rel="prefetch" href="/XDU-953/assets/js/13.50899f74.js"><link rel="prefetch" href="/XDU-953/assets/js/14.9fd56559.js"><link rel="prefetch" href="/XDU-953/assets/js/15.e54ace78.js"><link rel="prefetch" href="/XDU-953/assets/js/16.95e3e088.js"><link rel="prefetch" href="/XDU-953/assets/js/17.729769b0.js"><link rel="prefetch" href="/XDU-953/assets/js/18.83f72e4a.js"><link rel="prefetch" href="/XDU-953/assets/js/19.e96661c7.js"><link rel="prefetch" href="/XDU-953/assets/js/20.aec82dce.js"><link rel="prefetch" href="/XDU-953/assets/js/21.c6a8b6ab.js"><link rel="prefetch" href="/XDU-953/assets/js/22.baa28fa0.js"><link rel="prefetch" href="/XDU-953/assets/js/23.f56e4528.js"><link rel="prefetch" href="/XDU-953/assets/js/24.a27064fc.js"><link rel="prefetch" href="/XDU-953/assets/js/25.c8e1a852.js"><link rel="prefetch" href="/XDU-953/assets/js/26.267a4f09.js"><link rel="prefetch" href="/XDU-953/assets/js/27.a69c4dbf.js"><link rel="prefetch" href="/XDU-953/assets/js/28.9d9d83cb.js"><link rel="prefetch" href="/XDU-953/assets/js/29.230c8990.js"><link rel="prefetch" href="/XDU-953/assets/js/3.867065de.js"><link rel="prefetch" href="/XDU-953/assets/js/30.d08338b2.js"><link rel="prefetch" href="/XDU-953/assets/js/31.e059de79.js"><link rel="prefetch" href="/XDU-953/assets/js/32.a77cb7f5.js"><link rel="prefetch" href="/XDU-953/assets/js/33.9cae2106.js"><link rel="prefetch" href="/XDU-953/assets/js/34.cf8f931b.js"><link rel="prefetch" href="/XDU-953/assets/js/35.c88dfd86.js"><link rel="prefetch" href="/XDU-953/assets/js/37.697ffc04.js"><link rel="prefetch" href="/XDU-953/assets/js/38.5c7efa35.js"><link rel="prefetch" href="/XDU-953/assets/js/39.0716d191.js"><link rel="prefetch" href="/XDU-953/assets/js/4.510c4178.js"><link rel="prefetch" href="/XDU-953/assets/js/40.24cbf33c.js"><link rel="prefetch" href="/XDU-953/assets/js/41.71ab3d19.js"><link rel="prefetch" href="/XDU-953/assets/js/42.ea11c94a.js"><link rel="prefetch" href="/XDU-953/assets/js/5.5c9b623e.js"><link rel="prefetch" href="/XDU-953/assets/js/6.6ebbe9b3.js"><link rel="prefetch" href="/XDU-953/assets/js/7.1f8835de.js"><link rel="prefetch" href="/XDU-953/assets/js/vendors~docsearch.0385dbde.js">
+    <link rel="stylesheet" href="/XDU-953/assets/css/0.styles.b2081f6b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/XDU-953/" class="home-link router-link-active"><!----> <span class="site-name">XDU 953 Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/XDU-953/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/XDU-953/ds/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/XDU-953/cn/" class="nav-link">
+  计算机网络
+</a></div><div class="nav-item"><a href="/XDU-953/crypto/" class="nav-link">
+  密码学
+</a></div><div class="nav-item"><a href="/XDU-953/note/" class="nav-link router-link-active">
+  错题集
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/XDU-953/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/XDU-953/ds/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/XDU-953/cn/" class="nav-link">
+  计算机网络
+</a></div><div class="nav-item"><a href="/XDU-953/crypto/" class="nav-link">
+  密码学
+</a></div><div class="nav-item"><a href="/XDU-953/note/" class="nav-link router-link-active">
+  错题集
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>数学一</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>李永乐 660</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>李林 880</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>汤家凤 1800</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/XDU-953/note/201/1800-unary-calculus.html" class="sidebar-link">汤家凤 - 高等数学上</a></li><li><a href="/XDU-953/note/201/1800-multivariate-calculus.html" class="sidebar-link">汤家凤 - 高等数学下</a></li><li><a href="/XDU-953/note/201/1800-linear.html" aria-current="page" class="active sidebar-link">汤家凤 - 线性代数</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#行列式" class="sidebar-link">行列式</a></li><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#矩阵" class="sidebar-link">矩阵</a></li><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#线性方程组" class="sidebar-link">线性方程组</a></li><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#向量" class="sidebar-link">向量</a></li><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#特征值和特征向量" class="sidebar-link">特征值和特征向量</a></li><li class="sidebar-sub-header"><a href="/XDU-953/note/201/1800-linear.html#二次型" class="sidebar-link">二次型</a></li></ul></li><li><a href="/XDU-953/note/201/1800-probability.html" class="sidebar-link">汤家凤 - 概率论与数理统计</a></li></ul></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>网络空间安全基础综合</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><p>微分方程：17、19、25、27、29、30、33~36、46~54</p> <p>线性方程组：1、9、16、22、27</p> <h2 id="行列式"><a href="#行列式" class="header-anchor">#</a> 行列式</h2> <blockquote><p>求解行列式，根据各种变换方法</p></blockquote> <p>伴随矩阵和可逆矩阵对应行列式的变换
+$$
+|A^{-1}| = \frac{1}{|A|}\quad |A^<em>| = |,|A|A^{-1},| = |A|^n|A^{-1}| = |A|^{n-1}\
+-----------------------\
+|(A^</em>)^{-1}| = |(A^{-1})^*| = |(|A|A^{-1})^{-1}| = |\frac{A}{|A|}| = \frac{|A|}{|A|^n} = \frac{1}{|A|^{n-1}}
+$$
+很明确的是，以上所有推导形成闭环，且<code>(A*)⁻¹</code>始终等于<code>(A⁻¹)*</code>，通过两种证明方式可以得到相同结果，即代换<code>A⁻¹</code>或<code>A*</code></p> <h2 id="矩阵"><a href="#矩阵" class="header-anchor">#</a> 矩阵</h2> <blockquote><p>求解逆矩阵、伴随阵，矩阵乘法、秩、方程等式的证明题</p></blockquote> <h3 id="伴随和可逆的转换"><a href="#伴随和可逆的转换" class="header-anchor">#</a> 伴随和可逆的转换</h3> <p>伴随矩阵和可逆矩阵的变换
+$$
+A^{-1} = \frac{A^<em>}{|A|} \quad A^</em> = |A|A^{-1}\
+---------------\
+(A^{-1})^{-1} = A\quad (kA)^* = k^{n-1}A^<em>\
+---------------\
+(A^</em>)^{-1} = (|A|A^{-1})^{-1} = \frac{A}{|A|}\
+---------------\
+(A^<em>)^</em> = (|A|A^{-1})^* = |A|^{n-1}(A^{-1})^* = |A|^{n-1}\frac{A}{|A|} = |A|^{n-2}A\
+---------------\
+(A^{-1})^* = (\frac{A^<em>}{|A|})^</em> = \frac{(A^{<em>})^</em>}{|A|^{n-1}} = \frac{|A|^{n-2}A}{|A|^{n-1}} = \frac{A}{|A|} = (A^*)^{-1}\
+$$</p> <h3 id="矩阵乘法结合律"><a href="#矩阵乘法结合律" class="header-anchor">#</a> 矩阵乘法结合律</h3> <p>矩阵运算，结合律的运用
+$$
+(A+2E)(B-2E) = AB-2A+2B-4E\
+------------------\
+AXA^{-1} = B \Rightarrow X = A^{-1}BA\
+------------------\
+\alpha=[1,2,3] \Rightarrow\alpha^T(\alpha\alpha^T)\alpha = 14\alpha^T\alpha
+$$</p> <h3 id="对角阵和分块阵"><a href="#对角阵和分块阵" class="header-anchor">#</a> 对角阵和分块阵</h3> <p>对角阵及分块矩阵的逆：其中<code>a/b</code>可以是元素，也可以是子矩阵，均成立
+$$
+\left | \begin{matrix}
+a&amp;0\
+0&amp;b
+\end{matrix}
+\right |^{-1} =
+\left | \begin{matrix}
+a^{-1}&amp;0\
+0&amp;b^{-1}
+\end{matrix}
+\right | \
+\left | \begin{matrix}
+0&amp;a\
+b&amp;a
+\end{matrix}
+\right |^{-1} =
+\left | \begin{matrix}
+0&amp;b^{-1}\
+a^{-1}&amp;0
+\end{matrix}
+\right |
+$$</p> <h3 id="矩阵乘法和秩的关系"><a href="#矩阵乘法和秩的关系" class="header-anchor">#</a> 矩阵乘法和秩的关系</h3> <p>矩阵乘法对秩的影响：设有矩阵<code>A</code></p> <p>转置矩阵相乘，秩不变
+$$
+r(AA^T) = r(A) = r(A^T)
+$$
+<code>A</code>乘以满秩矩阵<code>B</code>，秩不变，
+$$
+r(B) = n \Rightarrow r(A) = r(AB)
+$$
+当乘积的秩为零阵时，各乘项秩之和不超过 n
+$$
+r(AB) = 0\Rightarrow r(A)+r(B) \leq n
+$$
+各乘项秩之和不小于乘项之和的秩
+$$
+r(A)+r(B) \geq r(A+B)
+$$
+乘积的秩小于等于任一乘项的秩
+$$
+r(AB) \leq min{r(A),r(B)}
+$$
+秩为 0，矩阵为 0 阵
+$$
+r(A) = 0 \Rightarrow A = O
+$$
+伴随阵的秩等于阶数减去矩阵的秩
+$$
+r(A^*) = \begin{cases}
+0&amp;r(A)&lt;n-1\
+n&amp;r(A)=n\
+1&amp;r(A)=n-1
+\end{cases}
+$$
+使用公式法计算伴随矩阵时，“正方向”上的元素要乘以<code>-1</code>，其余均为正</p> <p>矩阵方程求解，常用如下变换
+$$
+AA^{-1} = A^{-1}A = E\quad A^{-1} = \frac{A^<em>}{|A|}\
+---------------\
+A^</em> = |A|A^{-1}\quad AA^*=A^*A = |A|E\
+---------------\
+(kA)^{-1} = \frac{A^{-1}}{k}
+$$</p> <h2 id="线性方程组"><a href="#线性方程组" class="header-anchor">#</a> 线性方程组</h2> <blockquote><p>求解齐次、非齐次线性方程组的基础解系、通解</p></blockquote> <p>求解同一系数矩阵的多个非齐次方程组时，可以增广两列，同时进行计算，如
+$$
+\left[\begin{array}{lcr|rr}
+-1 &amp; 2 &amp; 1 &amp; 2 &amp; 1\
+3 &amp; 18 &amp; 1 &amp; 12 &amp; 4\
+0 &amp; 4 &amp; 12 &amp; 2 &amp; 7
+\end{array}\right]
+$$
+就对应了两组非齐次线性方程组，统一进行变换求解将更加简单，同时，很显然，两个非齐次方程组的导出组的通解保持一致（系数矩阵相同）</p> <h2 id="向量"><a href="#向量" class="header-anchor">#</a> 向量</h2> <blockquote><p>线性相关的证明题，线性表出的证明题</p></blockquote> <h3 id="定义"><a href="#定义" class="header-anchor">#</a> 定义</h3> <p>线性相关是针对向量组<code>α</code>来说的，就是说是否存在不全为 0 的系数组合<code>k</code>使得向量组的一个线性组合为 0，存在则为线性相关（定义）
+$$
+k_1\alpha_1 + ... + k_n\alpha_n = 0\quad k_1=...=k_n=0\
+$$</p> <p>这个问题等价于将向量组的系数<code>k</code>视作齐次线性方程组里的未知数（这里的系数<code>k</code>对应是向量组对应线性方程中的未知数<code>x</code>），即类比于<code>αx = 0</code>存在非零解</p> <p>$$
+\begin{cases}
+a_{11}k_1+...+a_{1n}k_n = 0\
+a_{21}k_1+...+a_{2n}k_n = 0\
+...\
+a_{n1}k_1+...+a_{nn}k_n = 0\
+\end{cases}
+$$
+化为矩阵乘法的形式，<code>AK = 0</code>
+$$
+A =
+\left [ \begin{matrix}
+a_{11}&amp;a_{12}&amp;...&amp;a_{1n}\
+a_{21}&amp;a_{22}&amp;...&amp;a_{2n}\
+...\
+a_{n1}&amp;a_{n2}&amp;...&amp;a_{nn}
+\end{matrix} \right ]\quad
+K = \left [ \begin{matrix}
+k_1\
+k_2\
+..\
+k_n
+\end{matrix} \right ]\Rightarrow
+AK  = 0
+$$</p> <p>同样的，对于线性表出<code>β = αx</code>，这里的<code>α</code>是已知的向量组，<code>x</code>为各分量前的系数，只有当这里的方程组有解，即<code>x</code>存在时，我们说<code>β</code>能够被<code>α</code>线性表出，线性相关关联的是齐次线性方程组，而线性表出关联的是非齐次线性方程组</p> <h3 id="证明线性相关-无关"><a href="#证明线性相关-无关" class="header-anchor">#</a> 证明线性相关/无关</h3> <p>证明线性关系</p> <ul><li>从定义上考虑：列出等式<code>k1α1+...+knαn = 0</code>，证明这个等式成立时，必有<code>k1=...kn = 0</code></li> <li><strong>从秩上考虑</strong>：当<strong>系数矩阵</strong>（在这里相当于向量组，因为向量组作为系数）满秩一定线性无关，反之线性相关
+<ul><li>从乘法对秩的影响上考虑：若向量组<code>A</code>线性无关，则必有<code>r(A) = n</code>，若<code>B = AP</code>，则<code>r(B) = min{r(A), r(P)}</code>，要证<code>B</code>线性无关，则必有<code>r(B) = n</code>，就变成了证明<code>r(P) = n</code></li> <li>从等价上考虑秩
+<ul><li>矩阵等价：秩相等</li> <li>向量组等价：能够互相表出，如<code>α</code>和<code>β</code>等价，则必有<code>α</code>和<code>(α|β), (β), (β|α)</code>保持一样的线性关系</li></ul></li></ul></li> <li>从正交上考虑：通常会结合定义进行证明，对等式<code>Ax = 0</code>和正交向量<code>β</code>做内积消去一些项证明未知数<code>x</code>均为 0</li></ul> <p>求解线性相关方程中的未知数</p> <ul><li>初等变换看出来，秩小于 n</li> <li>行列式算出来，令其为 0</li></ul> <h2 id="特征值和特征向量"><a href="#特征值和特征向量" class="header-anchor">#</a> 特征值和特征向量</h2> <blockquote><p>求解矩阵的特征值和特征向量，以及矩阵的相似对角阵和变换矩阵 P，或者求解相似阵的过渡矩阵（涉及两个相似阵的变换矩阵 P 的求解）</p></blockquote> <h3 id="非零列向量相乘之矩阵"><a href="#非零列向量相乘之矩阵" class="header-anchor">#</a> 非零列向量相乘之矩阵</h3> <p>对于两个非零列向量相乘得到的矩阵 A
+$$
+A = \alpha\beta^T
+$$
+根据定义灵活代换<code>λ</code>和<code>A</code>，<strong>可以达到降次的效果</strong>，高次<code>A</code>代换常数<code>λ</code>降次<code>A</code>，如，先取平方，有
+$$
+A^2 = \alpha\beta^T\alpha\beta^T = k\alpha\beta^T = kA
+$$
+进一步，对于特征值和特征向量，有
+$$
+A^2X-AX = k\lambda X-\lambda X
+$$
+另外，对于矩阵 A，其秩必定为 1，证明如下</p> <ol><li>首先由于两个列向量非 0，所以其乘积不可能为 0 阵，所以有<code>r(A) &gt;= 1</code></li> <li>第二要明确，任何列向量的秩均等于 1</li> <li>最后，根据矩阵乘法和秩的关系，有<code>r(A) &lt;= r(α) = 1</code></li></ol> <p>故<code>1 &lt;= r(A) &lt;= 1</code>，自然<code>r(A) = 1</code></p> <p>这点对于证明这样的矩阵是否能够相似对角化十分有用</p> <h3 id="非规则相似阵求过渡阵"><a href="#非规则相似阵求过渡阵" class="header-anchor">#</a> 非规则相似阵求过渡阵</h3> <p>已知<code>A~B</code>，<code>B</code>不为对角阵，求解<code>P</code>，使得
+$$
+P^{-1}AP = B
+$$
+由于 A B 特征值一样，假设为<code>(λ1,λ2,λ3)</code>，则一定有<code>P1,P2</code>使得
+$$
+P_1^{-1}AP_1 = P_2^{-1}BP_2 = C =
+\left [ \begin{matrix}
+\lambda_1&amp;0&amp;0\
+0&amp;\lambda_2&amp;0\
+0&amp;0&amp;\lambda_3
+\end{matrix} \right ]
+$$
+所以有
+$$
+P_2P_1^{-1}AP_1P_2^{-1} = B\Rightarrow 所求P = P_1P_2^{-1}
+$$
+所以求解这类问题，分为以下步骤</p> <ul><li>求解 A B 公有的特征值 λ</li> <li>求解 A B 各自的特征向量，得到特征矩阵 P1，P2</li> <li>求逆 P2，矩阵乘法得到最终结果 P</li></ul> <p><strong>求逆一定要细心</strong></p> <h2 id="二次型"><a href="#二次型" class="header-anchor">#</a> 二次型</h2> <blockquote><p><strong>求解二次型的标准型</strong>和规范型，以及标准相似对角阵，正/负惯性指数，判定二次型是否正定（特征值是否均为正）</p></blockquote> <h3 id="正交变换"><a href="#正交变换" class="header-anchor">#</a> 正交变换</h3> <p>给定二次型 f，严格按照以下步骤求解</p> <ol><li>列出对应矩阵 A，根据特征方程<code>|A-λE| = 0</code>解出特征值 λ（此时已经可以列出二次型对应标准形的对应矩阵，当然也可以列出 f 的规范形）</li> <li>根据特征值 λ 求解齐次方程组得到各个对应的特征向量</li> <li>施密特正交并且单位化各特征向量，组合特征向量得到正交坐标转换</li></ol> <p>二次形的正交变换中，根据正交的性质独立求解特征向量，如已知
+$$
+(A+4E)B = 0\quad B = (\beta_1,\beta_2,\beta_3)
+$$
+则有
+$$
+(A+4E)\beta_1 = 0\quad (A+4E)\beta_2 = 0
+$$
+是不是很像特征值、特征向量的定义（其实就是），于是我们可以得知二次型的对应矩阵 A 有特征值 -4 及其两个特征向量 β1 和 β2</p> <p>进一步的，因为是正交变换，设第三个特征向量<code>β3 = (x1,x2,x3)</code>，则有
+$$
+(\beta_1,\beta_3) = 0\quad (\beta_2,\beta_3) = 0
+$$
+再任意确定一个自由项，可以解出 β3 的解系，进而得到所有的特征向量，自然可以得到正交坐标变换
+$$
+C = (\beta_1,\beta_2,\beta_3)
+$$
+在已知特征值的情况下，可以由此倒推二次形对应矩阵 A
+$$
+A = C
+\left [ \begin{matrix}
+\lambda_1&amp;0&amp;0\
+0&amp;\lambda_2&amp;0\
+0&amp;0&amp;\lambda_3
+\end{matrix} \right ] C^T
+$$</p> <h3 id="配方法"><a href="#配方法" class="header-anchor">#</a> 配方法</h3> <p>把二次型所有项配成平方的形式，如
+$$
+f(X) = x_1^2+x_2^2+2x_1x_2 \rightarrow f(X) = (x_1+x_2)^2
+$$
+坐标变换，令<code>y1 = x1+x2</code>，则
+$$
+f(Y) = y_1^2 \Rightarrow \left [ \begin{matrix}
+1&amp;0&amp;0\
+0&amp;0&amp;0\
+0&amp;0&amp;0
+\end{matrix} \right ]
+$$
+好标准的标准形</p> <h3 id="合同、相似和等价"><a href="#合同、相似和等价" class="header-anchor">#</a> 合同、相似和等价</h3> <p>合同，定义上为存在可逆矩阵 C 使得
+$$
+C^TAC = B
+$$
+则 A B 合同，在求解时，一般只看二者惯性指数是否相同，相同则合同，否则不同</p> <p>相似，定义上为存在可逆矩阵 P 使得
+$$
+P^{-1}AP = B
+$$
+则 A B 相似</p> <p>等价，秩相同，则说两矩阵等价</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/XDU-953/note/201/1800-multivariate-calculus.html" class="prev">
+        汤家凤 - 高等数学下
+      </a></span> <span class="next"><a href="/XDU-953/note/201/1800-probability.html">
+        汤家凤 - 概率论与数理统计
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/XDU-953/assets/js/app.0055d2e6.js" defer></script><script src="/XDU-953/assets/js/2.43b082ac.js" defer></script><script src="/XDU-953/assets/js/1.3beff369.js" defer></script><script src="/XDU-953/assets/js/36.75b7720f.js" defer></script>
+  </body>
+</html>

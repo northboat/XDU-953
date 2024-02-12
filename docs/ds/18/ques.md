@@ -267,3 +267,31 @@ Status DeCyQueue(CyQueue *Q , int x){ //出队算法，出队的值赋给X
 	Q.tag=0;
 }
 ```
+
+3.(10分) 已知有 m 个顶点的，采用行序为主序的阵邻接矩阵结构存储的图，完成下列算法
+
+- (1) 计算图中有多少条边
+
+```c
+//a 为存储矩阵的结构
+int edges(int *a ,int m){
+    int i, j;
+    int e = 0;
+    for(i = 0; i < m; i++)
+		for(j=0; __①__; j++)
+            if(__②__)
+                __③__;
+    return e;
+}
+```
+
+- (2) 判断第 i 个顶点和第 j 个顶点之间是否有边相连
+
+```c
+int isadj(int i, int j, int *a, int m){
+    return __④__
+}
+```
+
+
+

@@ -1,7 +1,8 @@
 //对侧边栏的主管控
 module.exports = {
 
-	'/ds/': require('../ds/sidebar'),
-	'/cn/': require('../cn/sidebar'),
-	'/crypto/': require('../crypto/sidebar'),
+	'/951/': require('../951/sidebar'),
+	'/952/': require('../952/sidebar'),
+	'/953/': require('../953/sidebar'),
+	'/9151/': require('../9151/sidebar'),
 }	

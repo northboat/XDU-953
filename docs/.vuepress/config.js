@@ -14,10 +14,11 @@ module.exports = {
 
 	themeConfig: {
 		nav: [
-			{ text: '主页', link: '/' },
-			{ text: '数据结构', link: '/ds/' },
-			{ text: '计算机网络', link: '/cn/' },
-			{ text: '密码学', link: '/crypto/' },
+			{ text: 'Home', link: '/' },
+			{ text: '951', link: '/951/' },
+			{ text: '952', link: '/952/' },
+			{ text: '953', link: '/953/' },
+			{ text: '9151', link: '/9151/' },
 		],
 		sidebar: require("./sidebar.js"),
 	},

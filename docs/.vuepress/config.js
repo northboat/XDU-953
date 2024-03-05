@@ -14,7 +14,7 @@ module.exports = {
 
 	themeConfig: {
 		nav: [
-			{ text: 'Home', link: '/' },
+			//{ text: 'home', link: '/' },
 			{ text: '951', link: '/951/' },
 			{ text: '952', link: '/952/' },
 			{ text: '953', link: '/953/' },

@@ -31,7 +31,7 @@ for(int i = 0; i < nums.size(); i++){
 }
 ```
 
-## 双指针
+## 双指针 - 滑动窗口
 
 [移动零](https://leetcode.cn/problems/move-zeroes/)：注意这个上下边界的问题，要是拿不准就多判断几次
 
@@ -105,4 +105,14 @@ public:
     }
 };
 ```
+
+[找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)：对于 vector，可以直接这么比较
+
+```c
+vector<int> a(26);
+vector<int> b(26);
+cout << a==b << endl;
+```
+
+将输出 1，因为此时每个位置元素均为 0，则认为两个 vector 相等
 

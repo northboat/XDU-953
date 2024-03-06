@@ -6,7 +6,7 @@ module.exports = [
 		title: 'C/C++ 语言',
 		collapsable: true,
 		children: [
-			'./c/leetcode',
+			'./c',
 		]
 	},
 
@@ -14,7 +14,7 @@ module.exports = [
 		title: '离散数学',
 		collapsable: true,
 		children: [
-			'./discrete/discrete-set-theory',
+			'./discrete',
 		]
 	},
 	

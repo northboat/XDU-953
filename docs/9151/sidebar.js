@@ -3,7 +3,7 @@ module.exports = [
 
 
 	{
-		title: 'C/C++ 语言',
+		title: 'C/C++',
 		collapsable: true,
 		children: [
 			'./c',

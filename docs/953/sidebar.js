@@ -1,7 +1,7 @@
 module.exports = [
 
 	{
-		title: '953 2023',
+		title: '2023',
 		collapsable: true,
 		children: [
 			'./23/ques',
@@ -11,7 +11,7 @@ module.exports = [
 	
 	
 	{
-		title: '953 2022',
+		title: '2022',
 		collapsable: true,
 		children: [
 			'./22/ques',

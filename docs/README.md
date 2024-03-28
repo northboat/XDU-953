@@ -8,7 +8,7 @@ features:
   details: 有狗坑了我50块钱
 - title: 适用时间
   details: 王道过后
-- title: 资料下载
+- title: PDF 下载
   details: 上方 Download 按钮
 footer: create by canoe at 2023-10-28
 ---

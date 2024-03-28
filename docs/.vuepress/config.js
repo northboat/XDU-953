@@ -18,7 +18,7 @@ module.exports = {
 			{ text: '数据结构', link: '/ds/' },
 			{ text: '计算机网络', link: '/cn/' },
 			{ text: '密码学', link: '/crypto/' },
-			{ text: '我的笔记', link: '/note/' },
+			{ text: '注意事项', link: '/notice/' },
 		],
 		sidebar: require("./sidebar.js"),
 	},

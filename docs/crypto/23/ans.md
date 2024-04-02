@@ -5,7 +5,11 @@ date: 2024-2-1
 
 ## 选择
 
-<img src="./assets/image-20240201143634115.png">
+1-5 DCDBC
+
+6-10 ACDBB
+
+11-15 DBABC
 
 ## 填空
 

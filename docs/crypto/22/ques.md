@@ -38,7 +38,7 @@ while (y > 0)
 - C.s->prior = p; s->next = p->next; p->next->prior = s; p->next->prior = s;
 - D.p->prior->next = s; s->prior = p->prior; s->next = p; p->prior = s;
 
-4.设将三对角矩阵 A[n][n]按行优先存储在数组 B[3*n-2]之中，按列优先存储在 C[3*n-2]中元素 BD在原三对角矩阵里对应元素 Cm,所有数组标号均从 0 开始，i和的关系表达式为（）
+4.设将三对角矩阵`A[n][n]`按行优先存储在数组`B[3*n-2]`之中，按列优先存储在`C[3*n-2]`中元素`B[i]`在原三对角矩阵里对应元素`C[j]`，所有数组标号均从 0 开始，i 和 j 的关系表达式为（）
 
 - A.j=2i-3(i+1)/3
 - B.j=2i-3(i+2)/3

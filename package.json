@@ -8,6 +8,7 @@
     "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
   },
   "devDependencies": {
+    "vue-template-compiler": "^2.7.16",
     "vuepress": "^1.9.10"
   },
   "dependencies": {

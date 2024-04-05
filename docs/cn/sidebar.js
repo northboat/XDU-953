@@ -6,8 +6,8 @@ module.exports = [
 		title: '2019',
 		collapsable: true,
 		children: [
-			'./19/ques',
-			'./19/ans',
+			'./19/952-19-ques',
+			'./19/952-19-ans',
 		]
 	},
 
@@ -15,8 +15,8 @@ module.exports = [
 		title: '2018',
 		collapsable: true,
 		children: [
-			'./18/ques',
-			'./18/ans',
+			'./18/952-18-ques',
+			'./18/952-18-ans',
 		]
 	},
 
@@ -24,8 +24,8 @@ module.exports = [
 		title: '2017',
 		collapsable: true,
 		children: [
-			'./17/ques',
-			'./17/ans',
+			'./17/952-17-ques',
+			'./17/952-17-ans',
 		]
 	},
 	

@@ -1,18 +1,12 @@
 {
-  "name": "vuepress-starter",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
   },
-  "devDependencies": {
-    "vue-template-compiler": "^2.7.16",
-    "vuepress": "^1.9.10"
-  },
   "dependencies": {
-    "katex": "^0.16.9",
-    "markdown-it-texmath": "^1.0.0"
+    "katex": "^0.16.10",
+    "markdown-it-texmath": "^1.0.0",
+    "vue-template-compiler": "^2.7.16"
   }
 }

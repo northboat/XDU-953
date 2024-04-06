@@ -6,6 +6,7 @@ module.exports = [
 		collapsable: true,
 		children: [
 			'./21/951-21-ques',
+			'./21/951-21-ans',
 		]
 	},	
 	

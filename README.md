@@ -28,9 +28,42 @@
 
 ## 关于复试
 
-笔试难度不大
+笔试，难度不大，手上有两套纸质真题，之后整理
 
 | 操作系统 | 离散数学 | C程序设计 |
 | -------- | -------- | --------- |
 | 35分     | 35分     | 30分      |
+
+## 快速搭建
+
+> [VuePress 官方指南](https://vuepress.vuejs.org/zh/guide/)
+
+从 0 开始搭建这份 vuepress 文档
+
+```sh
+mkdir XDU-Docs && cd XDU-Docs
+npm init -y
+npm install vuepress -D
+
+# 安装 latex 公式和 vue 支持
+npm install katex markdown-it-texmath vue-template-compiler --save
+
+# 拷入 docs 文件夹到当前目录
+```
+
+添加脚本至 package.json
+
+```json
+"scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+},
+```
+
+开发和部署
+
+```sh
+npm run docs:dev
+npm run docs:build
+```
 

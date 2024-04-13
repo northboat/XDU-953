@@ -12,7 +12,7 @@
 
 英语：东秦金卓老师，身边没见过低于70的英一，25考研QQ群（外校50r/年，非常良心了）
 
-<img src="qq.jpg">
+<img src="https://github.com/canoe4/XDU-953/blob/main/docs/notice/assets/qq.jpg">
 
 专业课
 

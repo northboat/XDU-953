@@ -2,7 +2,7 @@
   "description": "",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "katex": "^0.16.10",

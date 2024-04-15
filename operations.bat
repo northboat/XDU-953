@@ -1,5 +1,5 @@
 @echo off
-echo ========================================
+echo ================================
 echo [The Opeartions of This Dir]:  
 echo	1.dev
 echo	2.build

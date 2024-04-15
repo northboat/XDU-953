@@ -1,2 +1,0 @@
-
-npm run docs:build

@@ -24,6 +24,7 @@ module.exports = [
 		collapsable: true,
 		children: [
 			'./19/951-19-ques',
+			'./19/951-19-ans',
 		]
 	},	
 
@@ -32,6 +33,7 @@ module.exports = [
 		collapsable: true,
 		children: [
 			'./18/951-18-ques',
+			'./18/951-18-ans',
 		]
 	},
 	
@@ -41,6 +43,7 @@ module.exports = [
 		collapsable: true,
 		children: [
 			'./17/951-17-ques',
+			'./17/951-17-ans',
 		]
 	},
 

@@ -1,6 +1,14 @@
 
 module.exports = [
-
+	{
+		title: '2021',
+		collapsable: true,
+		children: [
+			'./21/952-21-ques',
+			'./21/952-21-ans',
+		]
+	},
+	
 	{
 		title: '2020',
 		collapsable: true,

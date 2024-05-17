@@ -25,7 +25,7 @@
 英语
 
 - 东秦金卓老师，身边没见过低于 70 的英一
-- 25 考研 QQ 群，外校 50r/年，非常良心了（429418727）
+- 25 考研 QQ 群，50 元/年，非常良心了（429418727）
 
 <img src="https://github.com/canoe4/XDU-953/blob/main/docs/notice/assets/qq.jpg">
 

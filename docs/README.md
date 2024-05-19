@@ -10,6 +10,6 @@ features:
   details: 王道过后
 - title: PDF 下载
   details: 上方 Release 按钮
-footer: create by canoe at 2023-10-28
+footer: Create by Canoe at 2023-10-28 Referenced from https://github.com/Dongoing/XDU_953
 ---
 

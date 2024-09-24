@@ -57,5 +57,13 @@ module.exports = [
 		]
 	},
 
-	
+	{
+		title: '英语',
+		collapsable: true,
+		children: [
+		    './en/prefix-root',
+		    './en/dictionary',
+			'./en/read-write',
+		]
+	},
 ]
